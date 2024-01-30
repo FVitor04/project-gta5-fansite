@@ -1,0 +1,48 @@
+@media(max-width: 874px){
+    .cabecalho{
+      justify-content: center;
+      flex-direction: column; 
+      padding: 50px 0;
+      gap: 15px;
+    }
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+    .home .inform{
+        padding: 30px;
+    }
+    .home .inform img{
+        max-width: 200px;
+    }
+    .home .inform .titulo{
+        font-size: 40px;
+    }
+    .compre-ja .cartao{
+        width: 70%;
+    }
+    .compre-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+    .btn-comprar{
+        width: 100%;
+    }
+}
+@media (max-width:425px){
+    .compre-ja .cartao img{
+        max-width: 220px;
+    }
+    .compre-ja .informacoes{
+        gap: 50px;
+    }
+
+     .btn-plataforma{
+        width: 500%;
+        
+     }
+     
+       
+}
+      
+
+    
+
